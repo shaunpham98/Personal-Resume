@@ -4,8 +4,9 @@ body{
     background: lightgray;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
-.photo {
+img {
     border-radius: 50%;
+    margin-left: 20px;
 }
 
 h1{
@@ -26,19 +27,20 @@ h2{
     border-radius: 0.5rem;
 }
 .header{
-    background-color:deepskyblue;
+    background-color:white;
     padding: 1%;
     border-radius: 10px;
     display: grid;
     /*split header into 3 columns, allocating 40% of width to left, and 60% of width to right*/
-    grid-template-columns: 10% 50% 40%;
+    grid-template-columns: 25% 35% 40%;
 
 }
 .header-left{
     display: grid;
-    justify-items: center;
+    justify-items: left;
     align-items: center;
     font-size: 2rem;
+    line-height: 20px;
 }
 .emtitle{
     /*reduce size of subtitle "engineer"*/
