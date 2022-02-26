@@ -2,7 +2,10 @@ body{
     margin: 0%;
     padding: 0%;
     background: lightgray;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.photo {
+    border-radius: 50%;
 }
 
 h1{
@@ -27,8 +30,8 @@ h2{
     padding: 1%;
     border-radius: 10px;
     display: grid;
-    /*split header into two columns, allocating 40% of width to left, and 60% of width to right*/
-    grid-template-columns: 40% 60%;
+    /*split header into 3 columns, allocating 40% of width to left, and 60% of width to right*/
+    grid-template-columns: 10% 50% 40%;
 
 }
 .header-left{
@@ -44,11 +47,13 @@ h2{
     font-weight: 200;
 }
 .first{
-    font-weight: 200;
+    font-size: 50px;
+    font-weight: 400;
     margin: 0%;
 }
 .last{
-    font-weight: 200;
+    font-size: 50px;
+    font-weight: 400;
     margin: 0%;
 }
 .header-right{
