@@ -53,3 +53,7 @@ h2{
     display: grid;
     justify-items: end;
 }
+/*add grey background to all headers in index.html via class "grey"*/
+.grey{
+    background-color: grey;
+}
