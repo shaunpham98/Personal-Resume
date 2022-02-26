@@ -18,10 +18,13 @@ h2{
     width: 60rem;
     padding: 3rem;
     margin: 1rem auto;
-    /*border radius to add curved/smooth edges on argin*/
+    /*border radius to add curved/smooth edges on margin*/
     border-radius: 0.5rem;
 }
 .header{
+    background-color:deepskyblue;
+    padding: 1%;
+    border-radius: 10px;
     display: grid;
     /*split header into two columns, allocating 40% of width to left, and 60% of width to right*/
     grid-template-columns: 40% 60%;
@@ -56,4 +59,7 @@ h2{
 /*add grey background to all headers in index.html via class "grey"*/
 .grey{
     background-color: grey;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
 }
