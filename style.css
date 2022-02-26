@@ -34,7 +34,6 @@ h2{
     display: grid;
     /*split header into 3 columns, allocating 40% of width to left, and 60% of width to right*/
     grid-template-columns: 25% 35% 40%;
-
 }
 .header-left{
     display: grid;
