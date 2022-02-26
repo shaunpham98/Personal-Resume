@@ -1,0 +1,55 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    margin: 0;
+    font-weight: 400;
+}
+h2{
+    margin: 0;
+    font-weight: 400;
+}
+.box{
+    background: white;
+    width: 60rem;
+    padding: 3rem;
+    margin: 1rem auto;
+    /*border radius to add curved/smooth edges on argin*/
+    border-radius: 0.5rem;
+}
+.header{
+    display: grid;
+    /*split header into two columns, allocating 40% of width to left, and 60% of width to right*/
+    grid-template-columns: 40% 60%;
+
+}
+.header-left{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    font-size: 2rem;
+}
+.emtitle{
+    /*reduce size of subtitle "engineer"*/
+    font-size: 1rem;
+    color: red;
+    font-weight: 200;
+}
+.first{
+    font-weight: 200;
+    margin: 0%;
+}
+.last{
+    font-weight: 200;
+    margin: 0%;
+}
+.header-right{
+    /*divide into grid and occupy 100% of 60% allocation, shift line items to right with justidy-end*/
+    width: 100%;
+    display: grid;
+    justify-items: end;
+}
